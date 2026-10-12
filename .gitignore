@@ -1,0 +1,18 @@
+.venv/
+.DS_Store
+dist/
+build/
+__pycache__/
+.pytest_cache/
+*.egg-info/
+*.jsonl
+KILL
+.env
+.env.*
+.local/
+*.sqlite3
+*.sqlite3-*
+*-local.json
+
+# The private account-values file that `trade setup` can write (it normally lives outside any project folder)
+credentials.env
